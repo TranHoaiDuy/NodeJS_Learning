@@ -15,6 +15,10 @@ app.get("/", (req, res) => {
 res.render("pages/index");
 });
 
+app.get("/login", (req, res) => {
+    res.render("pages/login");
+})
+
 // It configures the system to listen
 // to port 3000. Any number can be
 // given instead of 3000, the only
